@@ -1,16 +1,19 @@
 {
-  "name": "websocket-game",
+  "name": "ws_game",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "drawing.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "websocket": "^1.0.34"
-  }
+    "http": "^0.0.1-security",
+    "websocket": "^1.0.34",
+    "window": "^1.0.0"
+  },
+  "description": ""
 }
